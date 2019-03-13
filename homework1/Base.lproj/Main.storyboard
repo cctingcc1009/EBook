@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rMD-Wu-5n9">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--企鵝？(ぺんぎん？)-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homework1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他真正身分是一隻河童（但他不知道）。不太肯定自己是不是一隻企鵝，所以經常看企鵝圖鑑，但都找不到綠色的企鵝。所以他沒有什麼自信。他很喜歡食青瓜，因為河童卷（かっぱ巻き）就是青瓜壽司。他喜歡讀書和聽音樂，又經常作弄其他的小夥伴。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmk-9k-SMj">
+                                <rect key="frame" x="23" y="459" width="371" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="0.55594499143835618" green="0.66267123283424645" blue="0.16510595038493159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假企鵝" translatesAutoresizingMaskIntoConstraints="NO" id="ivR-tl-PWu">
+                                <rect key="frame" x="23" y="122" width="371" height="386"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="企鵝？(ぺんぎん？)" id="boR-wU-0bA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3013.04347826087" y="902.67857142857133"/>
+        </scene>
+        <!--白熊（しろくま）-->
+        <scene sceneID="cRx-UP-vpZ">
+            <objects>
+                <viewController id="1bh-1V-nbj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="igp-72-0z0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gQ-Fo-CVi">
+                                <rect key="frame" x="23" y="456" width="371" height="473"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">他是怕冷的北極熊。在北極遇見環遊世界的真企鵝，真企鵝告訴他，南方有溫暖的小島，所以白熊離開北邊，結果在某個角落遇到大家。他是眾多角落生物裡最認真的。喜歡乾淨，會主動打掃，如果弄髒角落他會很生氣。擅長烹飪，畫畫，喜歡喝茶同咖啡，經常和企鵝爭角落。又經常作弄企鵝。他和身邊的包裹布是好朋友。去到那裡也會帶著他。</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.88168878420821928" green="0.39512972552789122" blue="0.4382046655145419" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="白熊" translatesAutoresizingMaskIntoConstraints="NO" id="vik-jl-JIU">
+                                <rect key="frame" x="20" y="107" width="374" height="415"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dAh-X0-Zct"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="白熊（しろくま）" id="QM7-nC-4Gr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZ7-7z-oNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2433.3333333333335" y="902.67857142857133"/>
+        </scene>
+        <!--炸豬扒（とんかつ）-->
+        <scene sceneID="dDo-cE-aMm">
+            <objects>
+                <viewController id="Hlv-fO-WnX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="662-XQ-9Su">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸豬排" translatesAutoresizingMaskIntoConstraints="NO" id="OjH-o1-rev">
+                                <rect key="frame" x="23" y="119" width="381" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUm-pt-LAc">
+                                <rect key="frame" x="28" y="436" width="371" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">他是一大塊炸豬扒中最尖端的部位，因為太肥膩所以被人食剩。身體99%是脂肪，只有鼻尖才是1%的肉。他身邊有一隻天婦羅的炸蝦尾，因為太硬沒有人吃，因為大家都是食剩的食物，所以他們是好朋友。他們兩個的夢想就是被吃掉。也很討厭別人食剩東西。他們不可以泡水，雖然喜歡溫泉但不能去浸。</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.88168878419999996" green="0.60411003223189474" blue="0.26763557098630336" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Q1x-OI-2Xl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="炸豬扒（とんかつ）" id="KBv-gx-cSx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyo-6x-d01" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1826.0869565217392" y="902.67857142857133"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="2JI-fZ-v2Y">
+            <objects>
+                <tableViewController id="jgf-jP-LSC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tQb-bA-isw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="sb8-Cp-6u0">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="Wct-a0-DTF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wct-a0-DTF" id="JMs-1j-ams">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="企鵝1" translatesAutoresizingMaskIntoConstraints="NO" id="QB1-7B-irZ">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="企鵝？(ぺんぎん？)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSa-yJ-Ejo">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.86871254279999999" blue="0.87802333050000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="JMH-ju-ui2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="Wy6-fr-Lse">
+                                        <rect key="frame" x="0.0" y="149" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wy6-fr-Lse" id="hKM-PX-tyh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="白熊1" translatesAutoresizingMaskIntoConstraints="NO" id="ELT-DU-XgF">
+                                                    <rect key="frame" x="20" y="10" width="161" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="白熊（しろくま）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ei-vE-T5l">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.83639023258065115" blue="0.64742930956409839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="1bh-1V-nbj" kind="show" id="RI5-W6-NVU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="2ps-iV-0Hs">
+                                        <rect key="frame" x="0.0" y="298" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2ps-iV-0Hs" id="MX9-A8-igB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸豬排1" translatesAutoresizingMaskIntoConstraints="NO" id="dIS-zR-6kn">
+                                                    <rect key="frame" x="16" y="10" width="180" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="炸豬扒（とんかつ）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddo-3l-9Dr">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.93413683057859476" blue="0.54916352587074746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Hlv-fO-WnX" kind="show" id="lfk-pG-dbs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="5qR-oh-Xtz">
+                                        <rect key="frame" x="0.0" y="447" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5qR-oh-Xtz" id="AEl-wW-jsN">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓1" translatesAutoresizingMaskIntoConstraints="NO" id="9Gh-uK-MeX">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="貓（ねこ）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-fh-FMP">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.8787909544157344" green="1" blue="0.59124682987012966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="FN4-4h-rD4" kind="show" id="tQE-SL-8vU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="mxf-4Y-MlQ">
+                                        <rect key="frame" x="0.0" y="596" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mxf-4Y-MlQ" id="Fmf-Ir-NaC">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="蜥蜴1" translatesAutoresizingMaskIntoConstraints="NO" id="PIl-7e-eMQ">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蜥蜴（とかげ）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laU-DW-l6p">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.69303825038431199" green="1" blue="0.74076897426777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="LXB-ZJ-0Qg" kind="show" id="ryv-fM-0Pg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="Wyl-j0-aNR">
+                                        <rect key="frame" x="0.0" y="745" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wyl-j0-aNR" id="rLk-0i-bPg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珍珠1" translatesAutoresizingMaskIntoConstraints="NO" id="Jav-Kk-WSb">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="珍珠（たぴおか）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEF-bA-p2k">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.4981783633748883" green="1" blue="0.92801476685173934" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="WZk-EC-yem" kind="show" id="y7R-wF-79X"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="m3f-c0-De7">
+                                        <rect key="frame" x="0.0" y="894" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m3f-c0-De7" id="rOW-GB-5Q1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸蝦尾1" translatesAutoresizingMaskIntoConstraints="NO" id="q0H-Sr-hff">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="炸蝦尾 (えびふらいのしっぽ）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2L-mi-oDY">
+                                                    <rect key="frame" x="196" y="29" width="231" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59823007065745903" green="0.95439896942670643" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="lqv-7z-8Pw" kind="show" id="Zuz-dI-kGf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="TTF-zd-6Bs">
+                                        <rect key="frame" x="0.0" y="1043" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TTF-zd-6Bs" id="Dgf-HF-Kpt">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雜草（ざっそう）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srk-oV-8gM">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雜草1" translatesAutoresizingMaskIntoConstraints="NO" id="eHF-CB-lsD">
+                                                    <rect key="frame" x="31" y="8" width="138" height="141"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.60668654926126586" green="0.84655948098310074" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.54425594618771089" green="0.82545114920409579" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="0kY-ro-y5T" kind="show" id="ewc-D1-bQ3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="PTh-xQ-OAb">
+                                        <rect key="frame" x="0.0" y="1192" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PTh-xQ-OAb" id="Yft-sR-efl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="裹布（ふろしき）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoJ-M2-Htj">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="果部1" translatesAutoresizingMaskIntoConstraints="NO" id="HwA-GU-s5Z">
+                                                    <rect key="frame" x="28" y="5" width="146" height="139"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.5686385178243123" green="0.74071475301188305" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="DIj-dL-W2O" kind="show" id="QfM-IO-QBK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="bHL-K0-RKe">
+                                        <rect key="frame" x="0.0" y="1341" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bHL-K0-RKe" id="P1y-Sd-xUM">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="偽蝸牛1" translatesAutoresizingMaskIntoConstraints="NO" id="4xT-bJ-49p">
+                                                    <rect key="frame" x="29" y="10" width="152" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="偽蝸牛（にせつむり）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyj-ti-SIG">
+                                                    <rect key="frame" x="204" y="29" width="186" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66461033397321123" green="0.67167214362920968" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Sv8-Et-3cv" kind="show" id="OY8-aY-MIJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="7vz-uV-dBi">
+                                        <rect key="frame" x="0.0" y="1490" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7vz-uV-dBi" id="lFg-jJ-Lw0">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="灰塵1" translatesAutoresizingMaskIntoConstraints="NO" id="XYv-GU-FY5">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="灰塵（ほこり）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gm1-St-bdh">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.82819056451507955" green="0.73882017314214532" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TPG-xe-uPW" kind="show" id="HxC-Le-R8v"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="X7p-aN-Qk5">
+                                        <rect key="frame" x="0.0" y="1639" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X7p-aN-Qk5" id="Vwf-RL-rka">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山1" translatesAutoresizingMaskIntoConstraints="NO" id="QD4-n0-ZAU">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山（やま）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQB-BX-0c4">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.92997208437038403" green="0.69088133054336431" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="scv-e3-nNW" kind="show" id="btc-56-aki"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="81E-Yq-98W">
+                                        <rect key="frame" x="0.0" y="1788" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="81E-Yq-98W" id="Sir-Nr-XIX">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麻雀1" translatesAutoresizingMaskIntoConstraints="NO" id="oPS-5v-u5V">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="麻雀（すずめ）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hY-Vr-ySc">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.63290321791538728" blue="0.6781199603093151" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iq9-jI-G1i" kind="show" id="KIK-sN-Nsn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="AOB-Qc-rrw">
+                                        <rect key="frame" x="0.0" y="1937" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AOB-Qc-rrw" id="cfP-uW-JfS">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓頭鷹-1" translatesAutoresizingMaskIntoConstraints="NO" id="jLN-wy-LHv">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="貓頭鷹（ふくろう）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-3W-Om2">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.71207667825933885" blue="0.68259091875836198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="lkS-rP-OeN" kind="show" id="7fl-aS-pPd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="nqp-g7-ZNT">
+                                        <rect key="frame" x="0.0" y="2086" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nqp-g7-ZNT" id="FPO-Pp-gZh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="幽靈1" translatesAutoresizingMaskIntoConstraints="NO" id="ati-Bw-G78">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="幽靈（おばけ）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjj-cn-bkC">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.87561511799832448" blue="0.62622271802134477" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="GFr-Et-hWd" kind="show" id="J31-nV-rtE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="zPK-GR-0u0">
+                                        <rect key="frame" x="0.0" y="2235" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zPK-GR-0u0" id="8eT-hw-xMu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="睇數1" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-Py-Erb">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="地鼠（もぐら）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2w-hF-E3w">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.99374202319475613" green="1" blue="0.67294407294482372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="LRz-JI-oQY" kind="show" id="ScS-GO-pZl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="HVt-Gg-4fQ">
+                                        <rect key="frame" x="0.0" y="2384" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HVt-Gg-4fQ" id="gN4-tW-WMq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="企鵝1-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-bo-d4A">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="企鵝（真正的）        ぺんぎん（本物）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZf-zp-HER">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.84545043292196187" green="1" blue="0.72845504009503692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="84N-LN-2LF" kind="show" id="ZsQ-ih-2iL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="UQH-nc-g5h">
+                                        <rect key="frame" x="0.0" y="2533" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UQH-nc-g5h" id="SV8-6u-acz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的蜥蜴1" translatesAutoresizingMaskIntoConstraints="NO" id="pJx-Bp-4BH">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蜥蜴（真正的）      とかげ（本物）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLC-CW-ns2">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.68737717475281412" green="1" blue="0.74607293227605864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="MG8-KX-6ia" kind="show" id="Kmh-8X-ogG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="5zV-TD-TEZ">
+                                        <rect key="frame" x="0.0" y="2682" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5zV-TD-TEZ" id="74o-rp-QaZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="角落之神1" translatesAutoresizingMaskIntoConstraints="NO" id="sPY-hW-CEn">
+                                                    <rect key="frame" x="16" y="10" width="165" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="角落之神（角の神）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDe-WV-esi">
+                                                    <rect key="frame" x="204" y="29" width="161" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.5856001876854473" green="0.94734475445583377" blue="0.9623056789340102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Nh6-dM-Ekx" kind="show" id="e5s-7X-1LZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="jgf-jP-LSC" id="dZG-IN-Hlq"/>
+                            <outlet property="delegate" destination="jgf-jP-LSC" id="1OX-T7-VSk"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" image="list" id="HSw-Ck-xpm"/>
+                    <navigationItem key="navigationItem" id="42j-4S-b63"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpg-xs-zWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3085.507246376812" y="-225"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Udl-8I-l3m">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rMD-Wu-5n9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LLl-1d-zuU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JXh-pr-fX9" kind="relationship" relationship="rootViewController" id="kW9-Mg-Fff"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xud-LH-He1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="-1037"/>
+        </scene>
+        <!--貓（ねこ）-->
+        <scene sceneID="1zv-yx-oN6">
+            <objects>
+                <viewController id="FN4-4h-rD4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qOg-hn-gGy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-3O-QOO">
+                                <rect key="frame" x="23" y="114" width="371" height="396"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一隻非常怕醜的貓。相當在意自己的體型。希望得到理想的體型。但和很多女生一樣，口裡說減肥，但總是吃吃吃。心地非常善良，會主動讓角落給其他朋友。她和小草是好朋友，小草夢想是開出花朵。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kek-Xf-M6G">
+                                <rect key="frame" x="23" y="456" width="371" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.88168878419999996" green="0.73458254132078671" blue="0.30138056945262154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="VKc-6i-qdM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="貓（ねこ）" id="aQX-o6-9xc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkb-Iq-Tkn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1213.0434782608697" y="902.67857142857133"/>
+        </scene>
+        <!--蜥蜴（とかげ）-->
+        <scene sceneID="kGW-Dk-Rh4">
+            <objects>
+                <viewController id="LXB-ZJ-0Qg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TKU-dy-ee8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假蜥蜴" translatesAutoresizingMaskIntoConstraints="NO" id="bPj-7U-deL">
+                                <rect key="frame" x="23" y="119" width="371" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="真正身份是一隻恐龍，因為怕被人知道真正身份會被人抓走，所以騙大家說自己是一隻蜥蜴。他的媽媽住在大海，經常想念媽媽。他身邊的蝸牛朋友其實不是蝸牛，真正身分是鼻涕蟲。因為和恐龍一樣假裝的，所以他們非常要好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fng-a0-lZR">
+                                <rect key="frame" x="22" y="444" width="371" height="411"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="0.54075134056418872" green="0.80776500650672689" blue="0.88168878419999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MrH-xc-nbX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="蜥蜴（とかげ）" id="EZX-aq-6Om"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHw-73-LqR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.24637681159425" y="902.67857142857133"/>
+        </scene>
+        <!--珍珠（たぴおか）-->
+        <scene sceneID="sxk-Zu-Ze1">
+            <objects>
+                <viewController id="WZk-EC-yem" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ye-SB-9e6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珍珠" translatesAutoresizingMaskIntoConstraints="NO" id="BJm-Tg-PdV">
+                                <rect key="frame" x="23" y="119" width="371" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他們數量很多，沒有表情，是珍珠奶茶裡的珍珠，因為飲剩而留低。黑色的珍珠特別扭捏。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-yc-jzD">
+                                <rect key="frame" x="13" y="442" width="381" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" red="0.88168878419999996" green="0.54774413775184827" blue="0.83453288667386727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QlD-Oo-Xtm"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="珍珠（たぴおか）" id="xd9-v0-nJc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PaU-Da-ocZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="902.67857142857133"/>
+        </scene>
+        <!--炸蝦尾 (えびふらいのしっぽ-->
+        <scene sceneID="pj7-4M-CfM">
+            <objects>
+                <viewController id="lqv-7z-8Pw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hg3-Jt-Ysg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸蝦尾" translatesAutoresizingMaskIntoConstraints="NO" id="hvR-mZ-z5i">
+                                <rect key="frame" x="23" y="119" width="371" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="她是炸豬扒的好朋友。她和炸豬扒一樣，因為太硬而被剩下來。雖然她是小小夥伴，但她的人氣已經和另外五位主角並駕齊驅。也有以其為主角的故事。和炸豬扒形影不離，炸豬扒甚至放棄被吃的機會也要和她一起。 " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqO-U2-yOC">
+                                <rect key="frame" x="23" y="423" width="371" height="439"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="0.94549978591232875" green="0.74287462782684377" blue="0.62374873009937015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bR9-bB-sWk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="炸蝦尾 (えびふらいのしっぽ" id="CrM-1c-xEH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wV3-LC-6pD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="602.89855072463774" y="902.67857142857133"/>
+        </scene>
+        <!--雜草（ざっそう）-->
+        <scene sceneID="bot-ln-jql">
+            <objects>
+                <viewController id="0kY-ro-y5T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5z3-6F-CJW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雜草" translatesAutoresizingMaskIntoConstraints="NO" id="S7m-mH-eKd">
+                                <rect key="frame" x="20" y="119" width="383" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是一棵積極向上的小草。夢想是成為花束，他和貓是好朋友，在繪本的故事裏，缺水的他被貓所救起，並帶貓去角落。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCg-HN-6x4">
+                                <rect key="frame" x="28" y="432" width="371" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <color key="textColor" red="0.55581401080663306" green="0.89209653253424659" blue="0.49236596223154894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Spb-3S-R3D"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雜草（ざっそう）" id="hiM-09-8oe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3e-9R-5aG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228.985507246377" y="902.67857142857133"/>
+        </scene>
+        <!--裹布（ふろしき）-->
+        <scene sceneID="Qgh-9I-xBi">
+            <objects>
+                <viewController id="DIj-dL-W2O" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e2y-uJ-r4U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="裹布" translatesAutoresizingMaskIntoConstraints="NO" id="b6M-h0-PPG">
+                                <rect key="frame" x="23" y="119" width="371" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="在白熊出生時已經在一起， 是白熊最重要的東西，時常把它帶在身邊。但白熊有時會用它來佔領角落。他不會說話，也不會移動。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6A-RK-Wbo">
+                                <rect key="frame" x="23" y="447" width="371" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <color key="textColor" red="0.89209653249999998" green="0.65947157669117074" blue="0.69740210262017577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rN9-J3-4P0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="裹布（ふろしき）" id="eRZ-V8-c5g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roX-l4-Cug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837.68115942029" y="902.67857142857133"/>
+        </scene>
+        <!--灰塵（ほこり）-->
+        <scene sceneID="FIe-lu-kc3">
+            <objects>
+                <viewController id="TPG-xe-uPW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q1Q-22-QCS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="灰塵" translatesAutoresizingMaskIntoConstraints="NO" id="H5t-J2-U3N">
+                                <rect key="frame" x="23" y="119" width="371" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是房間裏的灰塵，他和小草是歡樂的二人組。和粉圓一樣，數目有很多。也可以合體變成一個巨大的灰塵。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlF-TM-NyV">
+                                <rect key="frame" x="23" y="406" width="371" height="434"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.54067283326142124" green="0.43401653422486247" blue="0.53361979268749993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5V2-hX-eMd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="灰塵（ほこり）" id="svf-UA-Qaz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9q-Kd-5eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3015.9420289855075" y="902.67857142857133"/>
+        </scene>
+        <!--偽蝸牛（にせつむり）-->
+        <scene sceneID="lxd-oJ-vjg">
+            <objects>
+                <viewController id="Sv8-Et-3cv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nmk-53-LhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假蝸牛" translatesAutoresizingMaskIntoConstraints="NO" id="3cl-Zs-Pq1">
+                                <rect key="frame" x="23" y="119" width="371" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他本來是一隻鼻涕蟲。借用了蝸牛的空殼扮成一隻蝸牛。他被蜥蜴發現了真正身份，因為大家也是有秘密的人，所以他們是好朋友。有什麼事發生會馬上道歉。除了蝸牛的殻之外，他也會經常背着其他東西。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnO-eh-Cob">
+                                <rect key="frame" x="23" y="463" width="371" height="440"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <color key="textColor" red="0.60853075105256982" green="0.83480566550540469" blue="0.89209653249999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h9R-Wt-u6p"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="偽蝸牛（にせつむり）" id="by0-hi-qds"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CWK-EB-Bak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428.985507246377" y="902.67857142857133"/>
+        </scene>
+        <!--山（やま）-->
+        <scene sceneID="qS7-OI-A4U">
+            <objects>
+                <viewController id="scv-e3-nNW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ooq-WO-yeO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山" translatesAutoresizingMaskIntoConstraints="NO" id="g0v-NL-FbV">
+                                <rect key="frame" x="23" y="119" width="371" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是一個憧憬富士山的小山。在溫泉裡扮成富士山的樣子。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efZ-EJ-Re8">
+                                <rect key="frame" x="23" y="406" width="371" height="418"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                <color key="textColor" red="0.4907863986541281" green="0.76445701841262959" blue="0.79243758579949231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zup-x7-heE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="山（やま）" id="Jy0-fL-Bez"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wap-Ts-aBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3634.7826086956525" y="902.67857142857133"/>
+        </scene>
+        <!--麻雀（すずめ）-->
+        <scene sceneID="tDm-e9-422">
+            <objects>
+                <viewController id="iq9-jI-G1i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bS7-Nw-bqX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麻雀" translatesAutoresizingMaskIntoConstraints="NO" id="XX2-Q9-0w6">
+                                <rect key="frame" x="23" y="119" width="371" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是炸豬扒的朋友，炸豬扒因為太肥膩沒有人吃。只有他會啄他的衣來吃。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHJ-WU-04a">
+                                <rect key="frame" x="23" y="406" width="371" height="386"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.85311334725939092" green="0.69471911336714698" blue="0.50014274056756103" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="M0H-tP-Kz1"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="麻雀（すずめ）" id="pHY-0H-YCx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W4o-2W-YcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4234.7826086956529" y="902.67857142857133"/>
+        </scene>
+        <!--貓頭鷹（ふくろう）-->
+        <scene sceneID="kpT-tN-w3O">
+            <objects>
+                <viewController id="lkS-rP-OeN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aKY-je-VgF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓頭鷹" translatesAutoresizingMaskIntoConstraints="NO" id="dT2-zi-WIF">
+                                <rect key="frame" x="23" y="119" width="371" height="376"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是麻雀的好朋友，貓頭鷹是夜行性的動物，但為了見好朋友所以忍著睡意。聽說雙眼睜開時會帶來幸福啊。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtL-FN-4sr">
+                                <rect key="frame" x="23" y="406" width="371" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.8902921226401016" green="0.49405123692047775" blue="0.72535510556682448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X3f-qU-xDq"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="貓頭鷹（ふくろう）" id="4gm-6D-eIO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJt-ua-KzZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4834.7826086956529" y="902.67857142857133"/>
+        </scene>
+        <!--企鵝（真正的）ぺんぎん（本物）-->
+        <scene sceneID="bhN-dz-rVb">
+            <objects>
+                <viewController id="84N-LN-2LF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j79-QG-zmQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的企鵝" translatesAutoresizingMaskIntoConstraints="NO" id="Irj-Qi-kt0">
+                                <rect key="frame" x="23" y="119" width="371" height="376"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他是一隻真正的企鵝，經常去世界各地去旅行。有一天他到北方旅行的時候遇見了白熊，告訴白熊南方有溫暖的海洋。所以白熊就離開北方。性格友善，和任何人也能做朋友。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eES-do-7Wl">
+                                <rect key="frame" x="23" y="406" width="371" height="547"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.51234683669326286" green="0.6875440086501855" blue="0.78305862010203053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="M47-2i-QtV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="企鵝（真正的）ぺんぎん（本物）" id="RA8-I2-iNo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWJ-wC-O2O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6640.579710144928" y="902.67857142857133"/>
+        </scene>
+        <!--幽靈（おばけ）-->
+        <scene sceneID="5jM-Iv-2TL">
+            <objects>
+                <viewController id="GFr-Et-hWd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZPy-kj-fqj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="幽靈" translatesAutoresizingMaskIntoConstraints="NO" id="mbg-NQ-4X4">
+                                <rect key="frame" x="23" y="119" width="371" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一直躲在屋頂上的幽靈。因為不想嚇到別人，所以總是靜悄悄的出場。在咖啡店裡工作。很喜歡打掃。初出場的時侯很擔心會嚇到別人。但是誰也不怕他。非常膽小。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8L6-E8-dCA">
+                                <rect key="frame" x="23" y="406" width="371" height="483"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" red="0.32314897169324081" green="0.74578070132030461" blue="0.57351959475427927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FUo-KQ-g5z"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="幽靈（おばけ）" id="wqN-jC-qqm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U8u-vn-iu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5437.68115942029" y="902.67857142857133"/>
+        </scene>
+        <!--地鼠（もぐら）-->
+        <scene sceneID="tA8-h6-IJP">
+            <objects>
+                <viewController id="LRz-JI-oQY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KkK-BN-i4S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="地鼠" translatesAutoresizingMaskIntoConstraints="NO" id="yrW-z2-Nm4">
+                                <rect key="frame" x="23" y="119" width="371" height="376"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="從地底的角落走出來的生物，比較少登場。很喜歡紅色的鞋子，還會模仿其他角落生物。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0d-Qj-6Gi">
+                                <rect key="frame" x="23" y="406" width="371" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="0.45527363035425517" green="0.48804751600101526" blue="0.47811887013058785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HX7-9z-VJh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="地鼠（もぐら）" id="YlU-YJ-Nab"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sm4-if-uuL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6040.579710144928" y="902.67857142857133"/>
+        </scene>
+        <!--蜥蜴（真正的）とかげ（本物）-->
+        <scene sceneID="VEQ-gm-lES">
+            <objects>
+                <viewController id="MG8-KX-6ia" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcj-l2-51Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的蜥蜴" translatesAutoresizingMaskIntoConstraints="NO" id="JnW-Ks-vg2">
+                                <rect key="frame" x="23" y="119" width="371" height="368"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="和恐龍一起住在森林。性格悠哉游哉不拘小節，所以一直也沒有發現恐龍是假的蜥蜴。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNB-oI-vYP">
+                                <rect key="frame" x="23" y="406" width="371" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.55059507110077099" green="0.78305862010000005" blue="0.62419399205441461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lsy-ol-lTT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="蜥蜴（真正的）とかげ（本物）" id="wBw-E8-LUI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW6-rl-RfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7234.7826086956529" y="902.67857142857133"/>
+        </scene>
+        <!--角落之神（角の神）-->
+        <scene sceneID="stf-6y-MXz">
+            <objects>
+                <viewController id="Nh6-dM-Ekx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2b0-53-gdb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="角落神" translatesAutoresizingMaskIntoConstraints="NO" id="Gdn-Ia-YsL">
+                                <rect key="frame" x="23" y="119" width="371" height="366"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一直在大家看不見的角落守護著大家，每五年才有機會見到一次，手持變換自如的金色夾子，也因長年的修練，變成了角落的形狀了（完完全全的90度）。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wF6-DF-AYe">
+                                <rect key="frame" x="23" y="406" width="371" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.82438307655748388" green="0.84156884517766495" blue="0.11190071218469935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AOa-8k-6yn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="角落之神（角の神）" id="0yp-qU-9zK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3F-Wj-rGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7840.579710144928" y="902.67857142857133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nrm-7w-mkQ">
+            <objects>
+                <viewController id="Qgb-en-A1y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="boP-Bg-QwR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kAe-Zi-8nK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QPX-Ho-95a">
+                                        <rect key="frame" x="0.0" y="1" width="1475" height="142"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="灰塵1" translatesAutoresizingMaskIntoConstraints="NO" id="P6g-Hm-O2N">
+                                                <rect key="frame" x="0.0" y="7" width="124" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="偽蝸牛1" translatesAutoresizingMaskIntoConstraints="NO" id="8wb-Hu-xkU">
+                                                <rect key="frame" x="132" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山1" translatesAutoresizingMaskIntoConstraints="NO" id="DAy-s0-jh0">
+                                                <rect key="frame" x="263" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珍珠1" translatesAutoresizingMaskIntoConstraints="NO" id="roq-6M-dUn">
+                                                <rect key="frame" x="394" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麻雀1" translatesAutoresizingMaskIntoConstraints="NO" id="yMK-jU-CuY">
+                                                <rect key="frame" x="525" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="蜥蜴1" translatesAutoresizingMaskIntoConstraints="NO" id="Qxr-gU-L9y">
+                                                <rect key="frame" x="656" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="睇數1" translatesAutoresizingMaskIntoConstraints="NO" id="oXH-el-6EP">
+                                                <rect key="frame" x="791" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="幽靈1" translatesAutoresizingMaskIntoConstraints="NO" id="25e-0a-WEI">
+                                                <rect key="frame" x="926" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸豬排2" translatesAutoresizingMaskIntoConstraints="NO" id="0sV-Iy-pQw">
+                                                <rect key="frame" x="1057" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="白熊2" translatesAutoresizingMaskIntoConstraints="NO" id="UIJ-QG-hhe">
+                                                <rect key="frame" x="1201" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓2" translatesAutoresizingMaskIntoConstraints="NO" id="nAb-lg-Hf5">
+                                                <rect key="frame" x="1341" y="7" width="123" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="JWO-5b-9dX"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1500" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="介紹：https://www.san-x.co.jp/sumikko/profile/" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mno-Lq-PHc">
+                                <rect key="frame" x="0.0" y="674" width="432" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="參考資料:https://ari-sensei.com/%E8%A7%92%E8%90%BD%E7%94%9F%E7%89%A9%E4%BA%BA%E7%89%A9%E4%BB%8B%E7%B4%B9/" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uXF-1N-bbm">
+                                <rect key="frame" x="0.0" y="712" width="414" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="000000000016146119-gallery-01-20180619115508099" translatesAutoresizingMaskIntoConstraints="NO" id="6iP-Zq-xvX">
+                                <rect key="frame" x="0.0" y="204" width="414" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FGh-e1-Dpb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" image="favorites" id="sYF-5p-8ZH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyv-gQ-VVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="602.89855072463774" y="-225"/>
+        </scene>
+        <!--角落生物！！！-->
+        <scene sceneID="TFz-UJ-gzB">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="JXh-pr-fX9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="角落生物！！！" id="0jN-9F-g3X"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x03-wG-b2e">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jgf-jP-LSC" kind="relationship" relationship="viewControllers" id="Uhn-5D-DcM"/>
+                        <segue destination="Qgb-en-A1y" kind="relationship" relationship="viewControllers" id="Nch-tq-G3N"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsJ-eD-4NE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2175.36231884058" y="-225"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="000000000016146119-gallery-01-20180619115508099" width="594" height="493"/>
+        <image name="favorites" width="24" height="24"/>
+        <image name="list" width="24" height="24"/>
+        <image name="企鵝1" width="225" height="225"/>
+        <image name="企鵝1-1" width="193" height="193"/>
+        <image name="假企鵝" width="920" height="930"/>
+        <image name="假蜥蜴" width="920" height="930"/>
+        <image name="假蝸牛" width="920" height="930"/>
+        <image name="偽蝸牛1" width="193" height="193"/>
+        <image name="地鼠" width="920" height="930"/>
+        <image name="山" width="920" height="930"/>
+        <image name="山1" width="193" height="193"/>
+        <image name="幽靈" width="920" height="930"/>
+        <image name="幽靈1" width="193" height="193"/>
+        <image name="果部1" width="193" height="193"/>
+        <image name="灰塵" width="920" height="930"/>
+        <image name="灰塵1" width="193" height="193"/>
+        <image name="炸蝦尾" width="920" height="930"/>
+        <image name="炸蝦尾1" width="193" height="193"/>
+        <image name="炸豬排" width="920" height="930"/>
+        <image name="炸豬排1" width="320" height="320"/>
+        <image name="炸豬排2" width="193" height="193"/>
+        <image name="珍珠" width="920" height="930"/>
+        <image name="珍珠1" width="193" height="193"/>
+        <image name="白熊" width="920" height="930"/>
+        <image name="白熊1" width="301" height="168"/>
+        <image name="白熊2" width="193" height="193"/>
+        <image name="真正的企鵝" width="920" height="930"/>
+        <image name="真正的蜥蜴" width="920" height="930"/>
+        <image name="真正的蜥蜴1" width="193" height="193"/>
+        <image name="睇數1" width="193" height="193"/>
+        <image name="蜥蜴1" width="193" height="193"/>
+        <image name="裹布" width="920" height="930"/>
+        <image name="角落之神1" width="880" height="880"/>
+        <image name="角落神" width="850" height="661"/>
+        <image name="貓" width="920" height="930"/>
+        <image name="貓1" width="300" height="168"/>
+        <image name="貓2" width="193" height="193"/>
+        <image name="貓頭鷹" width="920" height="930"/>
+        <image name="貓頭鷹-1" width="127" height="146"/>
+        <image name="雜草" width="920" height="930"/>
+        <image name="雜草1" width="241" height="209"/>
+        <image name="麻雀" width="920" height="930"/>
+        <image name="麻雀1" width="193" height="193"/>
+    </resources>
+</document>
